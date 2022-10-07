@@ -1,6 +1,6 @@
 html{
   background-image: url(../src/images/Fondo.jpg);
-
+  background-size: cover;
 }
 
 .app {
