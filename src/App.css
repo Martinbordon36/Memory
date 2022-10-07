@@ -1,0 +1,44 @@
+.app {
+  background-image: url(../src/images/Fondo.jpg);
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  cursor: none;
+}
+
+.cards-container{
+  width: 1000px;
+  height: 600px;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+  cursor: none;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card-image {
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+}
+
+.button{
+  padding:15px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  
+}
