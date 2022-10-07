@@ -1,11 +1,15 @@
-.app {
+html{
   background-image: url(../src/images/Fondo.jpg);
-  background-size:cover;
-  height: 100vh;
-  width: 100vw;
+
+}
+
+.app {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size:cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 body{
@@ -42,3 +46,9 @@ body{
   text-align: center;
   
 }
+
+@media(max-width: 768px) {
+  .card{
+    margin-left: 20%;
+  }
+} 

@@ -85,7 +85,6 @@ function App() {
             />
           ))
         }
-            {/* <button className='button'>Reiniciar </button> */}
       </div>
     </div>
     </>
